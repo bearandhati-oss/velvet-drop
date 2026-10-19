@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <title>Velvet Drop</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1E1B2E"/>
+      <stop offset="1" stop-color="#3A2A5E"/>
+    </linearGradient>
+    <linearGradient id="gem" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFB3D6"/>
+      <stop offset="0.55" stop-color="#FF4F9A"/>
+      <stop offset="1" stop-color="#B8327A"/>
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="1024" fill="url(#bg)"/>
+  <circle cx="512" cy="560" r="300" fill="none" stroke="#C9B6FF" stroke-width="18" stroke-dasharray="1500 400" stroke-linecap="round" opacity="0.85"/>
+  <path d="M512 150 L700 390 L640 740 L512 820 L384 740 L324 390 Z" fill="url(#gem)" stroke="#FFD6EA" stroke-width="20" stroke-linejoin="round"/>
+  <path d="M512 150 L512 820 M324 390 L700 390 M384 740 L512 390 L640 740" fill="none" stroke="#FFFFFF" stroke-width="12" stroke-linejoin="round" opacity="0.55"/>
+</svg>
